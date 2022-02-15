@@ -21,7 +21,7 @@ CREATE TABLE `articles` (
 CREATE TABLE `imports` (
   `id` int(11) NOT NULL,
   `importDate` datetime NOT NULL,
-  `rawContent` text NOT NULL
+  `rawContent` mediumtext NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -----------------------------------------
